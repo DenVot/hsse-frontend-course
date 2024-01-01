@@ -27,6 +27,9 @@ h1 {
 #biography {
     display: flex;
     flex-direction: row;
+}
+
+.full-screen {
     height: 100vh;
 }
 
@@ -57,3 +60,33 @@ h1 {
     width: 50vw;
 }
 
+#my-projects {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-container {
+    background: var(--color);
+    border-radius: 15px;
+    padding: 15px;
+    width: 300px;
+}
+
+.project-container * {
+    color: color-mix(in srgb, var(--color) 35%, #000);
+}
+
+.project-container a {
+    font-weight: bold;
+}
+
+.projects {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
