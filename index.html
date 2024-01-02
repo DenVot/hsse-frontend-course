@@ -113,22 +113,32 @@
         </section>
 
         <!--Форма для обращений-->
-        <section class="full-screen">
+        <section id="send-me-message" class="full-screen">
             <form id="sender-form">
                 <span class="gothic-font">Напишите мне</span>
-                <label>
-                    Ваше имя
-                    <input id="sender-name" type="text"/>
-                </label>
-                <label>
-                    Ваш email
-                    <input id="sender-email" type="email"/>
-                </label>
-                <label>
-                    <textarea id="sender-message-text" placeholder="Напишите что-нибудь здесь"></textarea>
-                </label>
+                <div class="inputs-combo">
+                    <div class="txt-input-group">
+                        <label for="sender-name">
+                            Ваше имя
+                        </label>
+                        <input id="sender-name" name="name" type="text" required/>
+                    </div>
+                    <div class="txt-input-group">
+                        <label for="sender-email">
+                            Ваш email
+                        </label>
+                        <input id="sender-email" type="email" name="email" required/>
+                    </div>
+                    <div class="rich-txt-input-group">
+                        <label for="sender-message-text">
+                            Ваше сообщение:
+                        </label>
+                        <textarea id="sender-message-text" name="msg" placeholder="Напишите что-нибудь здесь" required></textarea>
+                    </div>
+                </div>
                 <input type="submit" value="Отправить"/>
             </form>
         </section>
+        <script src="script.js"></script>
     </body>
 </html>

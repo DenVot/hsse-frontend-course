@@ -13,6 +13,10 @@ h1 {
     font-family: 'Dela Gothic One', sans-serif;
 }
 
+.gothic-font {
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
 .social-links {
     display: flex;
     flex-direction: row;
@@ -30,7 +34,7 @@ h1 {
 }
 
 .full-screen {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #biography h1 {
@@ -89,4 +93,111 @@ h1 {
     justify-content: center;
     flex-direction: row;
     gap: 10px;
+}
+
+#send-me-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sender-form {
+    min-width: 300px;
+    min-height: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    background: #FFF;
+    box-shadow: 0 4px 12px 3px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#sender-form span {
+    font-size: 26px;
+}
+
+.inputs-combo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+}
+
+.rich-txt-input-group, .txt-input-group {
+    width: 100%;
+}
+
+.txt-input-group {
+    position: relative;
+    padding-top: 25px;
+}
+
+.txt-input-group label {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    transition: transform 0.3s;
+    color: #959595;
+}
+
+.txt-input-group input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    transition: border-color 0.3s;
+}
+
+.txt-input-group input:focus {
+    outline: none;
+    border-color: #5398FF;
+}
+
+.focused-label {
+    transform: translateY(calc(-100% - 5px));
+}
+
+.rich-txt-input-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.rich-txt-input-group textarea {
+    border: 2px solid #959595;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    padding: 8px;
+}
+
+.rich-txt-input-group textarea::placeholder {
+    font-size: 12px;
+}
+
+.rich-txt-input-group textarea:focus {
+    outline: none;
+    border-color: #5398FF;
+}
+
+input[type="submit"] {
+    background: #3F97FF;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    color: #FFF;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: color-mix(in srgb, #3F97FF 95%, #000);
 }
