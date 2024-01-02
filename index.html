@@ -3,11 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <title>Резюме</title>
-        <link rel="icon" href="resources/gosling-icon.ico"/>
-        <link rel="stylesheet" href="style.css"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="resources/gosling-icon.ico" rel="icon"/>
+        <link href="style.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com" rel="preconnect">
+        <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@400;700&display=swap"
+              rel="stylesheet">
     </head>
     <body>
         <div class="navigation-bar">
@@ -27,9 +28,13 @@
 
                         <section>
                             <p>
-                                Талантливый и опытный фронтенд-разработчик с более чем пятилетним опытом работы в создании инновационных и уникальных веб-приложений.
-                                Обладаю глубокими знаниями HTML, CSS, JavaScript, а также фреймворков, таких как React и Angular.
-                                Мои навыки включают в себя создание отзывчивого и кросс-браузерного пользовательского интерфейса, оптимизацию производительности и интеграцию с бэкенд-системами.
+                                Талантливый и опытный фронтенд-разработчик с более чем пятилетним опытом работы в
+                                создании
+                                инновационных и уникальных веб-приложений.
+                                Обладаю глубокими знаниями HTML, CSS, JavaScript, а также фреймворков, таких как React и
+                                Angular.
+                                Мои навыки включают в себя создание отзывчивого и кросс-браузерного пользовательского
+                                интерфейса, оптимизацию производительности и интеграцию с бэкенд-системами.
                                 Готов принимать вызовы и вносить вклад в развитие инновационных веб-проектов.
                             </p>
                         </section>
@@ -45,7 +50,9 @@
                                 <li>Тестирование: Jest, Enzyme, Jasmine</li>
                                 <li>Работа с API: RESTful, GraphQL</li>
                                 <li>Версионирование: Git, GitHub, GitLab, Bitbucket</li>
-                                <li>Оптимизация производительности: Code splitting, Lazy loading, Performance profiling</li>
+                                <li>Оптимизация производительности: Code splitting, Lazy loading, Performance
+                                    profiling
+                                </li>
                                 <li>Интеграция с бэкендом: Axios, Fetch API</li>
                                 <li>Работа с данными: JSON, XML, AJAX</li>
                             </ul>
@@ -53,16 +60,16 @@
                     </article>
                 </div>
                 <div class="social-links">
-                    <a href="" class="link-icon">
-                        <img src="resources/images/logotypes/tg.svg" alt="Telegram"/>
+                    <a class="link-icon" href="">
+                        <img alt="Telegram" src="resources/images/logotypes/tg.svg"/>
                     </a>
 
-                    <a href="" class="link-icon">
-                        <img src="resources/images/logotypes/vk.svg" alt="ВКонтакте"/>
+                    <a class="link-icon" href="">
+                        <img alt="ВКонтакте" src="resources/images/logotypes/vk.svg"/>
                     </a>
 
-                    <a href="" class="link-icon">
-                        <img src="resources/images/logotypes/email.svg" alt="Эл. почта"/>
+                    <a class="link-icon" href="">
+                        <img alt="Эл. почта" src="resources/images/logotypes/email.svg"/>
                     </a>
                 </div>
             </div>
@@ -120,7 +127,7 @@
         </section>
 
         <!--Форма для обращений-->
-        <section id="send-me-message" class="full-screen">
+        <section class="full-screen" id="send-me-message">
             <form id="sender-form">
                 <span class="gothic-font">Напишите мне</span>
                 <div class="inputs-combo">
@@ -128,19 +135,20 @@
                         <label for="sender-name">
                             Ваше имя
                         </label>
-                        <input id="sender-name" name="name" type="text" required/>
+                        <input id="sender-name" name="name" required type="text"/>
                     </div>
                     <div class="txt-input-group">
                         <label for="sender-email">
                             Ваш email
                         </label>
-                        <input id="sender-email" type="email" name="email" required/>
+                        <input id="sender-email" name="email" required type="email"/>
                     </div>
                     <div class="rich-txt-input-group">
                         <label for="sender-message-text">
                             Ваше сообщение:
                         </label>
-                        <textarea id="sender-message-text" name="msg" placeholder="Напишите что-нибудь здесь" required></textarea>
+                        <textarea id="sender-message-text" name="msg" placeholder="Напишите что-нибудь здесь"
+                                  required></textarea>
                     </div>
                 </div>
                 <input type="submit" value="Отправить"/>

@@ -57,8 +57,8 @@ h1 {
     flex: 1.5;
     position: relative;
     background: url(resources/images/gosling.png) center bottom/75% no-repeat,
-        url("resources/images/triangle.svg") left/auto 100% no-repeat,
-        linear-gradient(196deg, #D138F7 20.21%, #FBD36C 54.1%, #5398FF 83.38%);
+    url("resources/images/triangle.svg") left/auto 100% no-repeat,
+    linear-gradient(196deg, #D138F7 20.21%, #FBD36C 54.1%, #5398FF 83.38%);
     min-height: 100vh;
 }
 
