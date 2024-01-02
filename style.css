@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -109,7 +113,6 @@ h1 {
     align-items: center;
 }
 
-
 #sender-form span {
     font-size: 26px;
 }
@@ -194,4 +197,34 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: color-mix(in srgb, #3F97FF 95%, #000);
+}
+
+.navigation-bar {
+    z-index: 10000;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vh;
+
+    height: 2.5vw;
+    width: 5vw;
+    bottom: 10px;
+    right: 47.5vw;
+    background: rgba(93, 93, 93, 0.44);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+}
+
+.navigation-bar a {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background: #5398FF;
+    transition: transform 0.3s;
+}
+
+.navigation-bar a:hover {
+    transform: scale(1.1);
 }
