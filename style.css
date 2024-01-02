@@ -51,16 +51,11 @@ h1 {
 
 #gosling-container {
     flex: 1.5;
-    z-index: -2;
     position: relative;
     background: url(resources/images/gosling.png) center bottom/75% no-repeat,
         url("resources/images/triangle.svg") -1px center no-repeat,
         linear-gradient(196deg, #D138F7 20.21%, #FBD36C 54.1%, #5398FF 83.38%);
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 100vh;
+    min-height: 100vh;
     width: 50vw;
 }
 
