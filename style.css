@@ -214,7 +214,7 @@ input[type="submit"]:hover {
     right: 47.5vw;
     background: rgba(93, 93, 93, 0.44);
     backdrop-filter: blur(15px);
-    border-radius: 15px;
+    border-radius: 5000em;
 }
 
 .navigation-bar a {
