@@ -257,16 +257,21 @@ p {
 Разберем как каждое значение данного св-ва влияет на положение элементов:
 
 - `flex-start`
+
 ![img_2.png](img_2.png)
 
 - `flex-end`
+
 ![img_3.png](img_3.png)
 
 - `center`
+
 ![img_4.png](img_4.png)
 
 - `space-between`
+
 ![img_5.png](img_5.png)
 
 - `space-around`
+
 ![img_6.png](img_6.png)
