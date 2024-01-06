@@ -42,6 +42,7 @@ h1 {
 }
 
 #biography h1 {
+    position: static;
     margin-bottom: 12px;
 }
 
